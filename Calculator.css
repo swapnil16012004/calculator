@@ -1,0 +1,115 @@
+.calculator{
+    height:600px;
+    width:360px;
+    background-color:rgb(44, 40, 40);
+    margin:60px 0 0 500px;
+    border:5px solid black;
+    box-shadow:15px 15px 25px rgb(38, 37, 37);
+    border-radius:10px;
+    display:inline-block;
+    
+}
+.screen{
+    width:317px;
+    height:124px;
+    margin:25px 25px 20px 20px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    text-align:center;
+    font-size:50px;
+}
+/* .inp1{
+    width:317px;
+    height:62px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    background-color:rgb(212, 234, 177);
+    font-size:40px;
+    font-weight:1500;
+    border-bottom:none;
+}
+.inp2{
+    
+    width:317px;
+    height:62px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    background-color:rgb(212, 234, 177);
+    font-size:40px;
+    font-weight:1500;
+    border-top:none;
+} */
+.inp{
+    width:317px;
+    height:125px;
+    border:"15px";
+    background-color:rgb(212, 234, 177);
+    font-size:40px;
+    font-weight:1500;
+    border-bottom:none;
+}
+.buttons{
+    width:340px;
+    height:395px;
+    margin:20px 5px 20px 5px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.reset{
+    width:151px;
+    height:68px;
+    background-color:red;
+    margin-left:15px;
+    margin-bottom:15px;
+    color:white;
+    border:6px solid rgb(177, 2, 2);
+    border-radius:10px;
+    font-size:25px;
+    font-weight:1500;
+    text-align:center;
+    cursor: pointer;
+}
+.bttn{
+    width:68px;
+    height:68px;
+    background-color:grey;
+    border:6px solid rgb(23, 22, 22);
+    border-radius:10px;
+    font-size: 28px;
+    font-weight:1500;
+    color:white;
+    margin-left:15px;
+    margin-bottom:15px;
+    text-align:center;
+    cursor: pointer;
+}
+.equal{
+    width:65px;
+    height:65px;
+    background-color:rgb(43, 177, 231);
+    margin-left:15px;
+    margin-bottom:15px;
+    border:6px solid rgb(41, 151, 241);
+    border-radius:10px;
+    font-size:25px;
+    font-weight:1500;
+    text-align:center;
+    color:white;
+    cursor: pointer;
+}
+.reset:hover{
+    transform:scale(1.08);
+}
+.bttn:hover{
+    transform:scale(1.08);
+    background-color:grey;
+    border:6px solid rgb(23, 22, 22);
+    color:white;
+}
+.equal:hover{
+    transform:scale(1.08);
+}
